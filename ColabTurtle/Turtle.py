@@ -235,6 +235,10 @@ def gety():
     return(turtle_pos[1])
 
 
+# retrieve the turtle's currrent orientation
+def getOrientation():
+    return(turtle_degree)
+
 # move the turtle to a designated 'x'-'y' coordinate
 def goto(x, y):
     if not isinstance(x, int):
